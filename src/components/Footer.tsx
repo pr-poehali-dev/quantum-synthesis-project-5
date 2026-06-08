@@ -24,9 +24,31 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm tracking-widest">Специалист</h3>
-                <p className="text-white text-sm sm:text-base">Михаил Соркин</p>
-                <p className="text-neutral-500 text-xs sm:text-sm">Физический терапевт,<br />реабилитолог</p>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm tracking-widest">Контакты</h3>
+                <a
+                  href="https://t.me/george_biomechanic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Telegram-канал
+                </a>
+                <a
+                  href="https://www.youtube.com/@George_biomechanic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  YouTube
+                </a>
+                <a
+                  href="https://t.me/george_bmchn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-neutral-500 hover:text-neutral-300 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Поддержка
+                </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
