@@ -19,19 +19,30 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/9031e067-34a5-4f19-a06a-2f8833265d0f/files/6c1bdc05-82ea-44b2-a87b-20019f2de11b.jpg"
+          alt="Мужское здоровье"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/50" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-xs md:text-sm uppercase tracking-[0.3em] mb-6 text-blue-300 font-medium">
+          Онлайн-курс
         </p>
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
+          МУЖСКОЕ<br />ЗДОРОВЬЕ
+        </h1>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto opacity-80 mb-10 leading-relaxed">
+          Лекция, 8 тренировок и чекап — всё, что нужно для понимания
+          и восстановления здоровья тазового дна
+        </p>
+        <a
+          href="#buy"
+          className="inline-block bg-white text-black px-8 py-4 text-sm uppercase tracking-widest font-bold hover:bg-neutral-200 transition-colors duration-300"
+        >
+          Записаться на курс
+        </a>
       </div>
     </div>
   );
