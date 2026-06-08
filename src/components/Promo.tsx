@@ -27,7 +27,7 @@ export default function Promo() {
       </div>
 
       <div className="absolute inset-0 z-10 flex flex-col justify-between md:justify-center md:gap-8 px-6 py-12">
-        <h3 className="text-white/70 uppercase text-sm md:text-base tracking-widest self-end">
+        <h3 className="text-white/70 uppercase text-xl md:text-3xl tracking-widest self-start">
           Программа курса
         </h3>
 
