@@ -26,26 +26,27 @@ export default function Promo() {
         </motion.div>
       </div>
 
-      <h3 className="absolute top-12 right-6 text-white/70 uppercase z-10 text-sm md:text-base lg:text-lg tracking-widest">
-        Программа курса
-      </h3>
+      <div className="absolute inset-0 z-10 flex flex-col justify-between px-6 py-12">
+        <h3 className="text-white/70 uppercase text-sm md:text-base tracking-widest self-end">
+          Программа курса
+        </h3>
 
-      <div className="absolute z-10 left-6 right-6 bottom-12 max-w-4xl">
-        <ul className="space-y-3">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
           {[
-            "Как устроено тазовое дно и мочеполовая система",
-            "Как формируется и усиливается эрекция",
-            "Половая конституция — какой партнёр тебе подходит",
-            "Проблемы при некорректной работе мышц тазового дна",
-            "8 практических тренировок с массажными техниками",
-            "Чекап для регулярного контроля здоровья",
-          ].map((item, i) => (
-            <li key={i} className="flex items-start gap-3 text-white text-lg sm:text-xl md:text-2xl">
-              <span className="text-blue-400 font-bold mt-0.5 flex-shrink-0">{String(i + 1).padStart(2, "0")}.</span>
-              <span>{item}</span>
-            </li>
+            { num: "01", title: "Анатомия тазового дна", desc: "Как устроено тазовое дно и мочеполовая система" },
+            { num: "02", title: "Механика эрекции", desc: "Как формируется и усиливается эрекция" },
+            { num: "03", title: "Половая конституция", desc: "Какой партнёр тебе подходит" },
+            { num: "04", title: "Дисфункции мышц", desc: "Проблемы при некорректной работе мышц тазового дна" },
+            { num: "05", title: "8 тренировок", desc: "Практические занятия с массажными техниками" },
+            { num: "06", title: "Чекап здоровья", desc: "Инструмент для регулярного контроля здоровья" },
+          ].map((item) => (
+            <div key={item.num} className="bg-black/40 backdrop-blur-sm border border-white/10 rounded-xl p-4 flex flex-col gap-2">
+              <span className="text-blue-400 font-bold text-sm">{item.num}.</span>
+              <p className="text-white font-semibold text-sm md:text-base leading-tight">{item.title}</p>
+              <p className="text-white/60 text-xs md:text-sm leading-snug">{item.desc}</p>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );
