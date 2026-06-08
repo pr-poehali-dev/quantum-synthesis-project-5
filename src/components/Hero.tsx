@@ -19,8 +19,8 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/9031e067-34a5-4f19-a06a-2f8833265d0f/files/6c1bdc05-82ea-44b2-a87b-20019f2de11b.jpg"
-          alt="Мужское здоровье"
+          src="https://cdn.poehali.dev/projects/9031e067-34a5-4f19-a06a-2f8833265d0f/files/d4787e4c-7c61-47e1-a335-09aaa310ac00.jpg"
+          alt="3D анатомия тазового дна"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/50" />
