@@ -55,7 +55,13 @@ export default function Footer() {
               <h1 className="text-[14vw] sm:text-[13vw] lg:text-[11vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight uppercase">
                 Мужское<br />здоровье
               </h1>
-              <p className="text-neutral-500 text-sm sm:text-base">{new Date().getFullYear()} · Онлайн-курс</p>
+              <div className="flex flex-col items-end gap-2">
+                <p className="text-neutral-500 text-sm sm:text-base">{new Date().getFullYear()} · Онлайн-курс</p>
+                <div className="flex gap-3">
+                  <a href="/offer" className="text-neutral-600 hover:text-neutral-400 transition-colors text-xs">Оферта</a>
+                  <a href="/privacy" className="text-neutral-600 hover:text-neutral-400 transition-colors text-xs">Политика конфиденциальности</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
