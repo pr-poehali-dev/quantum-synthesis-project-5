@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Featured from "@/components/Featured";
 import Promo from "@/components/Promo";
 import Author from "@/components/Author";
+import ForWho from "@/components/ForWho";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -10,6 +11,7 @@ const Index = () => {
     <main className="min-h-screen">
       <Header />
       <Hero />
+      <ForWho />
       <Featured />
       <Promo />
       <Author />
