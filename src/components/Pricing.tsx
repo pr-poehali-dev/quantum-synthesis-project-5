@@ -64,7 +64,7 @@ export default function Pricing() {
                     <p className={`text-xs uppercase tracking-[0.25em] mb-1 ${plan.highlight ? "text-neutral-500" : "text-neutral-500"}`}>
                       Тариф {plan.id}
                     </p>
-                    <h3 className={`text-2xl lg:text-3xl font-bold ${plan.highlight ? "text-black" : "text-white"}`}>
+                    <h3 className={`text-2xl lg:text-3xl font-bold whitespace-nowrap ${plan.highlight ? "text-black" : "text-white"}`}>
                       {plan.name}
                     </h3>
                     <p className={`text-sm mt-1 ${plan.highlight ? "text-neutral-500" : "text-neutral-500"}`}>
