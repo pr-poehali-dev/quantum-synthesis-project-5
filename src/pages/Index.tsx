@@ -4,6 +4,7 @@ import Featured from "@/components/Featured";
 import Promo from "@/components/Promo";
 import Author from "@/components/Author";
 import ForWho from "@/components/ForWho";
+import Results from "@/components/Results";
 import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
 
@@ -13,6 +14,7 @@ const Index = () => {
       <Header />
       <Hero />
       <ForWho />
+      <Results />
       <Featured />
       <Promo />
       <Author />
