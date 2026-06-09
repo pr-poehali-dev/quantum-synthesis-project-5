@@ -4,19 +4,12 @@ export default function Author() {
       <div className="max-w-6xl mx-auto w-full">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
 
-          <div className="flex gap-4 lg:gap-6 flex-shrink-0">
-            <div className="w-48 h-64 lg:w-64 lg:h-80 overflow-hidden">
+          <div className="flex-shrink-0">
+            <div className="w-64 h-80 lg:w-80 lg:h-[480px] overflow-hidden">
               <img
-                src="https://cdn.poehali.dev/projects/9031e067-34a5-4f19-a06a-2f8833265d0f/bucket/7a4ae1f0-5709-466c-a7ef-2a8131eca5d8.jpg"
+                src="https://cdn.poehali.dev/projects/9031e067-34a5-4f19-a06a-2f8833265d0f/bucket/84e68ad8-02e0-4dfb-a9d0-ffaa4f41f911.jpg"
                 alt="Малявин Георгий"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
-              />
-            </div>
-            <div className="w-36 h-48 lg:w-48 lg:h-64 overflow-hidden mt-16">
-              <img
-                src="https://cdn.poehali.dev/projects/9031e067-34a5-4f19-a06a-2f8833265d0f/bucket/a0676fc6-6de1-4c63-a2c1-19b9aad7abd7.jpg"
-                alt="Малявин Георгий тренировка"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-700"
               />
             </div>
           </div>
