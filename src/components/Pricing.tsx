@@ -12,7 +12,7 @@ const plans = [
       "Ответы на вопросы",
     ],
     cta: "Купить базовый",
-    href: "#buy",
+    href: "https://t.me/biomechanicbot/?start=5001--521f78d3c116df6ae04cda5dec07a15ec3d508e6",
     highlight: false,
   },
   {
@@ -30,7 +30,7 @@ const plans = [
       "Сопровождение в течение 2 недель курса",
     ],
     cta: "Купить с сопровождением",
-    href: "#buy",
+    href: "https://t.me/biomechanicbot/?start=5001--71cd30483a92e9f0dac221b995f2e4c7b3e32789",
     highlight: true,
   },
 ];
