@@ -47,10 +47,10 @@ export default function Featured() {
           ))}
         </div>
 
-        <div className="mt-16 text-center" id="buy">
-          <button className="bg-black text-white px-10 py-5 text-sm uppercase tracking-widest font-bold hover:bg-neutral-800 transition-colors duration-300 cursor-pointer">
+        <div className="mt-16 text-center">
+          <a href="#buy" className="inline-block bg-black text-white px-10 py-5 text-sm uppercase tracking-widest font-bold hover:bg-neutral-800 transition-colors duration-300">
             Записаться на курс
-          </button>
+          </a>
         </div>
       </div>
     </div>
