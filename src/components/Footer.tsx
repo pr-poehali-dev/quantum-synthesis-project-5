@@ -58,8 +58,8 @@ export default function Footer() {
               <div className="flex flex-col items-end gap-2">
                 <p className="text-neutral-500 text-sm sm:text-base">{new Date().getFullYear()} · Онлайн-курс</p>
                 <div className="flex gap-3">
-                  <a href="/offer" className="text-neutral-600 hover:text-neutral-400 transition-colors text-xs">Оферта</a>
-                  <a href="/privacy" className="text-neutral-600 hover:text-neutral-400 transition-colors text-xs">Политика конфиденциальности</a>
+                  <a href="https://disk.yandex.ru/d/UwHUKqLHQrIxlg" target="_blank" rel="noopener noreferrer" className="text-neutral-600 hover:text-neutral-400 transition-colors text-xs">Оферта</a>
+                  <a href="https://disk.yandex.ru/d/2FM5nuA8s0DcRw" target="_blank" rel="noopener noreferrer" className="text-neutral-600 hover:text-neutral-400 transition-colors text-xs">Политика конфиденциальности</a>
                 </div>
               </div>
             </div>
